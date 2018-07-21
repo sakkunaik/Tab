@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tab_3"
+        android:textColor="#f33446"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="311dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="28dp"
+                android:text="PNAME                :  Staff Information"
+                android:textColor="#4caf50"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:text="DESCRIPTION    :  Mini Project in HTML(Web designing).Displaying staff information"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="107dp"
+        android:text="PNAME                :  SMS ALERT"
+        android:textColor="#4caf50"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_below="@+id/textView16"
+                android:text="DESCRIPTION    :   SMS ALERT project using .NET platform. This project contains whole college  information.we can send sms of attendance,time table,notification etc. "
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:text="PNAME                 :  Attendance Management System."
+        android:textColor="#4caf50"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView18"
+                android:text="DESCRIPTION      :  Attendance Management System using Java.DBMS mini project for storing the user attendance and checking for eligibility creteria."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_below="@+id/textView19"
+                android:text="PNAME                 :  CLIENT SERVER COMMUNICATION"
+                android:textColor="#4caf50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_below="@+id/textView20"
+                android:text="DESCRIPTION     :  client server communication mini project using OpenGL .this project displays graphically how the client communicates with server."
+                android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal">Personal</string>
+    <string name="tab_1">Personal:</string>
+    <string name="tab_3">Projects:</string>
+    <string name="tab_2">Education:</string>
+    <string name="tab_label1">Personal</string>
+
+    <string name="tab_label2">Education</string>
+
+    <string name="tab_label3">Projects</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_sakku_naik">Name : Sakku Naik</string>
+</resources>
